@@ -5,7 +5,7 @@ import json
 import streamlit as st
 # from streamlit_lottie import st_lottie
 # from streamlit_extras.let_it_rain import rain
-import lottie
+# import lottie
 
 # Directories and file paths
 THIS_DIR = Path(__file__).parent
