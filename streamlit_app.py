@@ -5,7 +5,8 @@ import json
 import streamlit as st
 from streamlit_lottie import st_lottie
 from streamlit_extras.let_it_rain import rain
-# import lottie
+import lottie
+
 # Directories and file paths
 THIS_DIR = Path(__file__).parent
 CSS_FILE = THIS_DIR / "style" / "style.css"
@@ -51,4 +52,5 @@ st_lottie(lottie_animation, key="lottie-holiday", height=500)
 # Personalized holiday message
 st.markdown(
     f"Dear {PERSON_NAME}, wishing you a wonderful holiday season filled with joy and peace. 🌟"
-)
+    )
+st.write("Merhaba")
