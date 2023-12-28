@@ -4,7 +4,7 @@ from pathlib import Path
 import json
 import streamlit as st
 # from streamlit_lottie import st_lottie
-from streamlit_extras.let_it_rain import rain
+# from streamlit_extras.let_it_rain import rain
 import lottie
 
 # Directories and file paths
@@ -35,7 +35,7 @@ def get_person_name():
 st.set_page_config(page_title="Happy Ramazan", page_icon="🎄")
 
 # Run snowfall animation
-run_snow_animation()
+# run_snow_animation()
 
 # Apply custom CSS
 with open(CSS_FILE) as f:
