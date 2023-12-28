@@ -3,7 +3,7 @@
 from pathlib import Path
 import json
 import streamlit as st
-from streamlit_lottie import st_lottie
+# from streamlit_lottie import st_lottie
 from streamlit_extras.let_it_rain import rain
 import lottie
 
@@ -47,7 +47,7 @@ st.header(f"Happy Ramazan, {PERSON_NAME}! 🎄", anchor=False)
 
 # Display the Lottie animation
 lottie_animation = load_lottie_animation(LOTTIE_ANIMATION)
-st_lottie(lottie_animation, key="lottie-holiday", height=500)
+# st_lottie(lottie_animation, key="lottie-holiday", height=500)
 
 # Personalized holiday message
 st.markdown(
